@@ -15,9 +15,13 @@ cd von-network
 ./manage build
 ./manage start --logs
 visit: localhost:9000
+
 Step 1: Clone the aries-cloudagent-python project in your system from this link:https://github.com/hyperledger/aries-cloudagent-python
+
 Step 2: Starting the verifier agent Open git bash and navigate to the folder where the agent project is cloned.
+
 Step 3: Then write the command ACME Agent: cd /aries-cloudagent-python/demo.
+
 Step 4: Then, to run the agent, write:./run_demo acme, and In case of error, docker rm -f acme. Now we have successfully run the agent.
 
 Step 5: Now we will run the controller project. Clone the controller project in your system from the GitHub link:https://github.com/hyperledger/aries-acapy-controllers
